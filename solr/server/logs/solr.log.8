@@ -1,0 +1,556 @@
+2019-12-03 00:17:34.270 INFO  (main) [   ] o.e.j.u.log Logging initialized @1131ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-12-03 00:17:34.386 WARN  (main) [   ] o.e.j.x.XmlConfiguration Deprecated method public void org.eclipse.jetty.rewrite.handler.RedirectRegexRule.setReplacement(java.lang.String) in file:///Users/ozrendabic/Desktop/Project/solr/server/etc/jetty.xml
+2019-12-03 00:17:34.458 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2019-12-03 00:17:34.458 WARN  (main) [   ] o.e.j.x.XmlConfiguration Deprecated method public void org.eclipse.jetty.server.ServerConnector.setSoLingerTime(int) in file:///Users/ozrendabic/Desktop/Project/solr/server/etc/jetty-http.xml
+2019-12-03 00:17:34.469 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_231-b11
+2019-12-03 00:17:34.499 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/ozrendabic/Desktop/Project/solr/server/contexts/] at interval 0
+2019-12-03 00:17:34.834 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-12-03 00:17:34.845 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-12-03 00:17:34.845 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-12-03 00:17:34.847 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2019-12-03 00:17:34.940 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-12-03 00:17:34.945 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.3.0
+2019-12-03 00:17:34.945 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-12-03 00:17:34.945 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/ozrendabic/Desktop/Project/solr
+2019-12-03 00:17:34.946 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-12-03T00:17:34.945Z
+2019-12-03 00:17:34.970 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /Users/ozrendabic/Desktop/Project/solr/server/solr
+2019-12-03 00:17:34.977 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/ozrendabic/Desktop/Project/solr/server/solr/solr.xml
+2019-12-03 00:17:35.068 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@14ec4505, but no JMX reporters were configured - adding default JMX reporter.
+2019-12-03 00:17:35.449 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2019-12-03 00:17:35.684 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@43f82e78[provider=null,keyStore=null,trustStore=null]
+2019-12-03 00:17:35.684 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@43f82e78[provider=null,keyStore=null,trustStore=null]
+2019-12-03 00:17:35.796 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@2f05be7f[provider=null,keyStore=null,trustStore=null]
+2019-12-03 00:17:35.796 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@2f05be7f[provider=null,keyStore=null,trustStore=null]
+2019-12-03 00:17:35.969 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-12-03 00:17:35.970 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2019-12-03 00:17:36.037 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@14ec4505
+2019-12-03 00:17:36.037 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@14ec4505
+2019-12-03 00:17:36.042 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@14ec4505
+2019-12-03 00:17:36.080 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /Users/ozrendabic/Desktop/Project/solr/server/solr
+2019-12-03 00:17:36.080 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [nutch]
+2019-12-03 00:17:36.124 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.c.SolrResourceLoader [nutch] Added 61 libs to classloader, from paths: [/Users/ozrendabic/Desktop/Project/solr/contrib/clustering/lib, /Users/ozrendabic/Desktop/Project/solr/contrib/extraction/lib, /Users/ozrendabic/Desktop/Project/solr/contrib/langid/lib, /Users/ozrendabic/Desktop/Project/solr/contrib/velocity/lib, /Users/ozrendabic/Desktop/Project/solr/dist, /Users/ozrendabic/Desktop/Project/solr/example/files/browse-resources]
+2019-12-03 00:17:36.140 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@693fe6c9{/solr,file:///Users/ozrendabic/Desktop/Project/solr/server/solr-webapp/webapp/,AVAILABLE}{/Users/ozrendabic/Desktop/Project/solr/server/solr-webapp/webapp}
+2019-12-03 00:17:36.156 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@4b2bac3f{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2019-12-03 00:17:36.156 INFO  (main) [   ] o.e.j.s.Server Started @3019ms
+2019-12-03 00:17:36.357 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.2.0
+2019-12-03 00:17:36.498 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.s.IndexSchema [nutch] Schema name=example-data-driven-schema
+2019-12-03 00:17:36.549 WARN  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.LatLonType]. Please consult documentation how to replace it accordingly.
+2019-12-03 00:17:36.927 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2019-12-03 00:17:36.955 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.c.CoreContainer Creating SolrCore 'nutch' using configuration from instancedir /Users/ozrendabic/Desktop/Project/solr/server/solr/nutch, trusted=true
+2019-12-03 00:17:36.982 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.nutch' (registry 'solr.core.nutch') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@14ec4505
+2019-12-03 00:17:36.996 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.c.SolrCore [[nutch] ] Opening new SolrCore at [/Users/ozrendabic/Desktop/Project/solr/server/solr/nutch], dataDir=[/Users/ozrendabic/Desktop/Project/solr/server/solr/nutch/data/]
+2019-12-03 00:17:37.032 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-12-03 00:17:37.803 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-12-03 00:17:37.803 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-12-03 00:17:37.830 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-12-03 00:17:37.830 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-12-03 00:17:37.949 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.s.SolrIndexSearcher Opening [Searcher@65fa8411[nutch] main]
+2019-12-03 00:17:37.969 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/ozrendabic/Desktop/Project/solr/server/solr/nutch/conf
+2019-12-03 00:17:38.005 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-12-03 00:17:38.012 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-12-03 00:17:38.019 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /Users/ozrendabic/Desktop/Project/solr/server/solr/nutch/conf/elevate.xml
+2019-12-03 00:17:38.364 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-12-03 00:17:38.375 INFO  (searcherExecutor-10-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@65fa8411[nutch] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(8.3.0):C1900:[diagnostics={java.vendor=Oracle Corporation, os=Mac OS X, java.version=1.8.0_231, java.vm.version=25.231-b11, lucene.version=8.3.0, os.arch=x86_64, java.runtime.version=1.8.0_231-b11, source=flush, os.version=10.14.6, timestamp=1575235212047}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-12-03 00:17:38.375 INFO  (searcherExecutor-10-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-12-03 00:17:38.375 INFO  (searcherExecutor-10-thread-1-processing-x:nutch) [   x:nutch] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-12-03 00:17:38.375 INFO  (searcherExecutor-10-thread-1-processing-x:nutch) [   x:nutch] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2019-12-03 00:17:38.381 INFO  (searcherExecutor-10-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.SolrCore [nutch] Registered new searcher Searcher@65fa8411[nutch] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(8.3.0):C1900:[diagnostics={java.vendor=Oracle Corporation, os=Mac OS X, java.version=1.8.0_231, java.vm.version=25.231-b11, lucene.version=8.3.0, os.arch=x86_64, java.runtime.version=1.8.0_231-b11, source=flush, os.version=10.14.6, timestamp=1575235212047}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-12-03 00:18:34.506 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=141
+2019-12-03 00:18:38.870 INFO  (qtp1850180796-16) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=7
+2019-12-03 00:19:20.465 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=5
+2019-12-03 00:19:27.554 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+samsung+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=35
+2019-12-03 00:19:40.651 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+lock+screen"~1000&fl=id,title,url,content&start=0} hits=3 status=0 QTime=13
+2019-12-03 00:19:47.946 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+lock+screen"~1000&fl=id,title,url,content&start=0} hits=3 status=0 QTime=4
+2019-12-03 00:20:21.318 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+lock+screen"~1000&fl=id,title,url,content&start=0} hits=3 status=0 QTime=4
+2019-12-03 00:44:17.521 INFO  (qtp1850180796-16) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=3
+2019-12-03 00:44:21.059 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+some+thing"~1000&fl=id,title,url,content&start=0} hits=30 status=0 QTime=12
+2019-12-03 00:44:27.797 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+another+thing"~1000&fl=id,title,url,content&start=0} hits=18 status=0 QTime=13
+2019-12-03 00:51:32.645 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+keyword"~1000&fl=id,title,url,content&start=0} hits=0 status=0 QTime=6
+2019-12-03 00:51:36.533 INFO  (qtp1850180796-18) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+samsung"~1000&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=13
+2019-12-03 00:52:26.038 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=3
+2019-12-03 00:53:39.110 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=2
+2019-12-03 00:55:00.436 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=3
+2019-12-03 00:55:15.522 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+samsung"~1000&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=2
+2019-12-03 00:56:17.232 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=2
+2019-12-03 00:56:39.155 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=2
+2019-12-03 00:56:45.176 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+samsung"~1000&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=2
+2019-12-03 00:57:10.693 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+fridge"~1000&fl=id,title,url,content&start=0} hits=3 status=0 QTime=6
+2019-12-03 00:57:14.489 INFO  (qtp1850180796-16) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=10
+2019-12-03 00:57:48.422 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 00:59:16.048 INFO  (qtp1850180796-16) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+s3"~1000&fl=id,title,url,content&start=0} hits=77 status=0 QTime=8
+2019-12-03 00:59:36.194 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=2
+2019-12-03 01:00:29.513 INFO  (qtp1850180796-16) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-03 01:00:34.541 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 01:00:44.907 INFO  (qtp1850180796-16) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 01:05:59.225 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-03 01:06:17.178 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=2
+2019-12-03 01:06:20.107 INFO  (qtp1850180796-18) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 01:16:41.666 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 01:17:28.458 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 01:17:53.377 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 01:17:57.259 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 01:18:37.005 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 01:18:42.796 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 01:28:34.995 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-03 01:28:38.450 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 01:28:48.509 INFO  (qtp1850180796-16) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-03 01:28:54.573 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 01:29:04.891 INFO  (qtp1850180796-16) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 01:29:10.048 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-03 01:29:22.318 INFO  (qtp1850180796-16) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 01:29:27.946 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 01:32:11.295 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-03 01:35:30.883 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-03 01:50:05.167 INFO  (qtp1850180796-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1575337804982} status=0 QTime=1
+2019-12-03 01:50:05.195 INFO  (qtp1850180796-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575337804982} status=0 QTime=29
+2019-12-03 01:50:05.209 INFO  (qtp1850180796-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575337804982} status=0 QTime=11
+2019-12-03 01:50:09.312 INFO  (qtp1850180796-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1575337804982} status=0 QTime=2
+2019-12-03 01:50:09.322 INFO  (qtp1850180796-41) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/replication params={wt=json&command=details&_=1575337809301} status=0 QTime=8
+2019-12-03 01:50:09.329 INFO  (qtp1850180796-18) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1575337809301} status=0 QTime=17
+2019-12-03 01:50:09.330 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1575337804982&ts=1575337804982} status=503 QTime=2
+2019-12-03 01:50:09.347 INFO  (qtp1850180796-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575337804982} status=0 QTime=37
+2019-12-03 01:50:09.347 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/system params={wt=json&_=1575337809301} status=0 QTime=29
+2019-12-03 01:50:10.834 INFO  (qtp1850180796-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1575337804982} status=0 QTime=0
+2019-12-03 01:50:10.848 INFO  (qtp1850180796-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575337804982} status=0 QTime=13
+2019-12-03 01:50:13.125 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=*:*&_=1575337810807} hits=1900 status=0 QTime=2
+2019-12-03 01:56:56.529 INFO  (qtp1850180796-42) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=2
+2019-12-03 01:56:59.408 INFO  (qtp1850180796-41) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 01:57:07.246 INFO  (qtp1850180796-42) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-03 01:58:02.541 INFO  (qtp1850180796-41) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-03 01:58:07.838 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-03 01:58:22.947 INFO  (qtp1850180796-41) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-03 01:58:51.696 ERROR (qtp1850180796-17) [   x:nutch] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse '+content:*samsung* AND +host:answers.yahoo.com AND -content:"There are no answers yet. Be the first to answer this question. Answer this question" AND +content:"ago tv"~1000 AND -id:': Encountered "<EOF>" at line 1, column 182.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:279)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:198)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2576)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:803)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:582)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:424)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:351)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:311)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:265)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:152)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse '+content:*samsung* AND +host:answers.yahoo.com AND -content:"There are no answers yet. Be the first to answer this question. Answer this question" AND +content:"ago tv"~1000 AND -id:': Encountered "<EOF>" at line 1, column 182.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:264)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:174)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 44 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 182.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:325)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:222)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:260)
+	... 47 more
+
+2019-12-03 01:58:51.696 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000+AND+-id:&fl=id,title,url,content&start=0} status=400 QTime=3
+2019-12-03 01:59:09.578 INFO  (qtp1850180796-41) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-03 01:59:12.643 ERROR (qtp1850180796-17) [   x:nutch] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse '+content:*samsung* AND +host:answers.yahoo.com AND -content:"There are no answers yet. Be the first to answer this question. Answer this question" AND +content:"ago tv"~1000 AND -id:': Encountered "<EOF>" at line 1, column 182.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:279)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:198)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2576)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:803)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:582)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:424)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:351)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:311)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:265)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:152)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse '+content:*samsung* AND +host:answers.yahoo.com AND -content:"There are no answers yet. Be the first to answer this question. Answer this question" AND +content:"ago tv"~1000 AND -id:': Encountered "<EOF>" at line 1, column 182.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:264)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:174)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 44 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 182.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:325)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:222)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:260)
+	... 47 more
+
+2019-12-03 01:59:12.644 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000+AND+-id:&fl=id,title,url,content&start=0} status=400 QTime=3
+2019-12-03 01:59:28.736 INFO  (qtp1850180796-41) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 01:59:32.518 WARN  (qtp1850180796-17) [   x:nutch] o.e.j.s.HttpChannel /solr/nutch/select => org.apache.solr.common.SolrException: URLDecoder: Invalid digit (^) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:458)
+org.apache.solr.common.SolrException: URLDecoder: Invalid digit (^) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:458) ~[?:?]
+	at org.apache.solr.servlet.SolrRequestParsers.parseFormDataContent(SolrRequestParsers.java:381) ~[?:?]
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:308) ~[?:?]
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:278) ~[?:?]
+	at org.apache.solr.servlet.HttpSolrCall.<init>(HttpSolrCall.java:189) ~[?:?]
+	at org.apache.solr.servlet.SolrDispatchFilter.getHttpSolrCall(SolrDispatchFilter.java:480) ~[?:?]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:421) ~[?:?]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:351) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610) ~[jetty-servlet-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:311) ~[jetty-servlets-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:265) ~[jetty-servlets-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602) ~[jetty-servlet-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540) ~[jetty-servlet-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[jetty-security-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480) ~[jetty-servlet-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:152) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335) ~[jetty-rewrite-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.Server.handle(Server.java:505) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305) ~[jetty-io-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) ~[jetty-io-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117) ~[jetty-io-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+2019-12-03 01:59:46.608 WARN  (qtp1850180796-23) [   x:nutch] o.e.j.s.HttpChannel /solr/nutch/select => org.apache.solr.common.SolrException: URLDecoder: Invalid digit (^) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:458)
+org.apache.solr.common.SolrException: URLDecoder: Invalid digit (^) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:458) ~[?:?]
+	at org.apache.solr.servlet.SolrRequestParsers.parseFormDataContent(SolrRequestParsers.java:381) ~[?:?]
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:308) ~[?:?]
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:278) ~[?:?]
+	at org.apache.solr.servlet.HttpSolrCall.<init>(HttpSolrCall.java:189) ~[?:?]
+	at org.apache.solr.servlet.SolrDispatchFilter.getHttpSolrCall(SolrDispatchFilter.java:480) ~[?:?]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:421) ~[?:?]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:351) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610) ~[jetty-servlet-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:311) ~[jetty-servlets-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:265) ~[jetty-servlets-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602) ~[jetty-servlet-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540) ~[jetty-servlet-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[jetty-security-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480) ~[jetty-servlet-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:152) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335) ~[jetty-rewrite-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.Server.handle(Server.java:505) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305) ~[jetty-io-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) ~[jetty-io-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117) ~[jetty-io-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+2019-12-03 02:00:22.618 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-03 02:00:25.284 INFO  (qtp1850180796-45) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 02:00:27.856 WARN  (qtp1850180796-15) [   x:nutch] o.e.j.s.HttpChannel /solr/nutch/select => org.apache.solr.common.SolrException: URLDecoder: Invalid digit (%) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:458)
+org.apache.solr.common.SolrException: URLDecoder: Invalid digit (%) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:458) ~[?:?]
+	at org.apache.solr.servlet.SolrRequestParsers.parseFormDataContent(SolrRequestParsers.java:381) ~[?:?]
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:308) ~[?:?]
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:278) ~[?:?]
+	at org.apache.solr.servlet.HttpSolrCall.<init>(HttpSolrCall.java:189) ~[?:?]
+	at org.apache.solr.servlet.SolrDispatchFilter.getHttpSolrCall(SolrDispatchFilter.java:480) ~[?:?]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:421) ~[?:?]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:351) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610) ~[jetty-servlet-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:311) ~[jetty-servlets-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:265) ~[jetty-servlets-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602) ~[jetty-servlet-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540) ~[jetty-servlet-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[jetty-security-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480) ~[jetty-servlet-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:152) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335) ~[jetty-rewrite-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.Server.handle(Server.java:505) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305) ~[jetty-io-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) ~[jetty-io-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117) ~[jetty-io-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+2019-12-03 02:00:35.646 WARN  (qtp1850180796-16) [   ] o.e.j.s.HttpChannel /solr/nutch/select => org.apache.solr.common.SolrException: URLDecoder: Invalid digit (%) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:458)
+org.apache.solr.common.SolrException: URLDecoder: Invalid digit (%) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:458) ~[?:?]
+	at org.apache.solr.servlet.SolrRequestParsers.parseFormDataContent(SolrRequestParsers.java:381) ~[?:?]
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:308) ~[?:?]
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:278) ~[?:?]
+	at org.apache.solr.servlet.HttpSolrCall.<init>(HttpSolrCall.java:189) ~[?:?]
+	at org.apache.solr.servlet.SolrDispatchFilter.getHttpSolrCall(SolrDispatchFilter.java:480) ~[?:?]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:421) ~[?:?]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:351) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610) ~[jetty-servlet-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:311) ~[jetty-servlets-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:265) ~[jetty-servlets-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602) ~[jetty-servlet-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540) ~[jetty-servlet-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[jetty-security-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480) ~[jetty-servlet-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:152) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335) ~[jetty-rewrite-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.Server.handle(Server.java:505) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267) ~[jetty-server-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305) ~[jetty-io-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) ~[jetty-io-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117) ~[jetty-io-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917) ~[jetty-util-9.4.19.v20190610.jar:9.4.19.v20190610]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+2019-12-03 02:01:16.785 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-03 02:01:18.933 INFO  (qtp1850180796-16) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 02:01:21.257 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000+AND+%2Bid:*20130727142819AAQAV33\^0.5&fl=id,title,url,content&start=0} hits=0 status=0 QTime=9
+2019-12-03 02:01:27.675 INFO  (qtp1850180796-16) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"tv+Yahoo+Answers"~15+AND+%2Bid:*20130727142819AAQAV33\^0.5&fl=id,title,url,content&start=0} hits=0 status=0 QTime=8
+2019-12-03 02:01:30.469 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000+AND+%2Bid:*20130727142819AAQAV33\^0.5&fl=id,title,url,content&start=0} hits=0 status=0 QTime=3
+2019-12-03 02:01:56.630 INFO  (qtp1850180796-16) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 02:01:58.746 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000+AND+%2Bid:*20130727142819AAQAV33\^0.5&fl=id,title,url,content&start=0} hits=0 status=0 QTime=3
+2019-12-03 02:02:01.373 INFO  (qtp1850180796-41) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000+AND+%2Bid:*20130727142819AAQAV33\^0.5&fl=id,title,url,content&start=0} hits=0 status=0 QTime=2
+2019-12-03 02:03:24.693 INFO  (qtp1850180796-16) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-03 02:03:30.871 INFO  (qtp1850180796-18) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000+AND+-id:*20130727142819AAQAV33\^0.5&fl=id,title,url,content&start=0} hits=195 status=0 QTime=8
+2019-12-03 02:03:37.507 INFO  (qtp1850180796-16) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000+AND+%2Bid:*20130727142819AAQAV33\^2.0&fl=id,title,url,content&start=0} hits=0 status=0 QTime=5
+2019-12-03 02:03:44.924 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000+AND+%2Bid:*20130727142819AAQAV33\^2.0&fl=id,title,url,content&start=0} hits=0 status=0 QTime=3
+2019-12-03 02:04:27.453 INFO  (Thread-1) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@4b2bac3f{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2019-12-03 02:04:27.453 INFO  (Thread-1) [   ] o.e.j.s.session node0 Stopped scavenging
+2019-12-03 02:04:27.455 INFO  (Thread-1) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=91323447
+2019-12-03 02:04:27.456 INFO  (coreCloseExecutor-15-thread-1) [   x:nutch] o.a.s.c.SolrCore [nutch]  CLOSING SolrCore org.apache.solr.core.SolrCore@5efae731
+2019-12-03 02:04:27.456 INFO  (coreCloseExecutor-15-thread-1) [   x:nutch] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.nutch, tag=SolrCore@5efae731
+2019-12-03 02:04:27.457 INFO  (coreCloseExecutor-15-thread-1) [   x:nutch] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@3980f1df: rootName = null, domain = solr.core.nutch, service url = null, agent id = null] for registry solr.core.nutch / com.codahale.metrics.MetricRegistry@256f9b64
+2019-12-03 02:04:27.481 INFO  (Thread-1) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2019-12-03 02:04:27.482 INFO  (Thread-1) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@6a62689d: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node / com.codahale.metrics.MetricRegistry@17a7b6c9
+2019-12-03 02:04:27.484 INFO  (Thread-1) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2019-12-03 02:04:27.484 INFO  (Thread-1) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@f9879ac: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm / com.codahale.metrics.MetricRegistry@6d21acd3
+2019-12-03 02:04:27.486 INFO  (Thread-1) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2019-12-03 02:04:27.486 INFO  (Thread-1) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@37f21974: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty / com.codahale.metrics.MetricRegistry@355a6abd
+2019-12-03 02:04:27.492 INFO  (Thread-1) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@693fe6c9{/solr,null,UNAVAILABLE}{/Users/ozrendabic/Desktop/Project/solr/server/solr-webapp/webapp}

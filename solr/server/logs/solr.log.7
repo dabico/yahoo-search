@@ -1,0 +1,782 @@
+2019-12-02 12:07:26.682 INFO  (main) [   ] o.e.j.u.log Logging initialized @1130ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-12-02 12:07:26.799 WARN  (main) [   ] o.e.j.x.XmlConfiguration Deprecated method public void org.eclipse.jetty.rewrite.handler.RedirectRegexRule.setReplacement(java.lang.String) in file:///Users/ozrendabic/Desktop/Project/solr/server/etc/jetty.xml
+2019-12-02 12:07:26.871 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2019-12-02 12:07:26.871 WARN  (main) [   ] o.e.j.x.XmlConfiguration Deprecated method public void org.eclipse.jetty.server.ServerConnector.setSoLingerTime(int) in file:///Users/ozrendabic/Desktop/Project/solr/server/etc/jetty-http.xml
+2019-12-02 12:07:26.883 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_231-b11
+2019-12-02 12:07:26.912 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/ozrendabic/Desktop/Project/solr/server/contexts/] at interval 0
+2019-12-02 12:07:27.247 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-12-02 12:07:27.258 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-12-02 12:07:27.258 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-12-02 12:07:27.260 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2019-12-02 12:07:27.358 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-12-02 12:07:27.363 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.3.0
+2019-12-02 12:07:27.363 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-12-02 12:07:27.363 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/ozrendabic/Desktop/Project/solr
+2019-12-02 12:07:27.364 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-12-02T12:07:27.364Z
+2019-12-02 12:07:27.388 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /Users/ozrendabic/Desktop/Project/solr/server/solr
+2019-12-02 12:07:27.395 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/ozrendabic/Desktop/Project/solr/server/solr/solr.xml
+2019-12-02 12:07:27.487 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@14ec4505, but no JMX reporters were configured - adding default JMX reporter.
+2019-12-02 12:07:27.797 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2019-12-02 12:07:28.049 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@43f82e78[provider=null,keyStore=null,trustStore=null]
+2019-12-02 12:07:28.049 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@43f82e78[provider=null,keyStore=null,trustStore=null]
+2019-12-02 12:07:28.164 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@2f05be7f[provider=null,keyStore=null,trustStore=null]
+2019-12-02 12:07:28.164 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@2f05be7f[provider=null,keyStore=null,trustStore=null]
+2019-12-02 12:07:28.337 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-12-02 12:07:28.339 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2019-12-02 12:07:28.408 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@14ec4505
+2019-12-02 12:07:28.408 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@14ec4505
+2019-12-02 12:07:28.414 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@14ec4505
+2019-12-02 12:07:28.458 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /Users/ozrendabic/Desktop/Project/solr/server/solr
+2019-12-02 12:07:28.459 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [nutch]
+2019-12-02 12:07:28.510 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.c.SolrResourceLoader [nutch] Added 61 libs to classloader, from paths: [/Users/ozrendabic/Desktop/Project/solr/contrib/clustering/lib, /Users/ozrendabic/Desktop/Project/solr/contrib/extraction/lib, /Users/ozrendabic/Desktop/Project/solr/contrib/langid/lib, /Users/ozrendabic/Desktop/Project/solr/contrib/velocity/lib, /Users/ozrendabic/Desktop/Project/solr/dist, /Users/ozrendabic/Desktop/Project/solr/example/files/browse-resources]
+2019-12-02 12:07:28.521 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@693fe6c9{/solr,file:///Users/ozrendabic/Desktop/Project/solr/server/solr-webapp/webapp/,AVAILABLE}{/Users/ozrendabic/Desktop/Project/solr/server/solr-webapp/webapp}
+2019-12-02 12:07:28.537 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@4b2bac3f{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2019-12-02 12:07:28.537 INFO  (main) [   ] o.e.j.s.Server Started @2987ms
+2019-12-02 12:07:28.746 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.2.0
+2019-12-02 12:07:28.883 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.s.IndexSchema [nutch] Schema name=example-data-driven-schema
+2019-12-02 12:07:28.934 WARN  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.LatLonType]. Please consult documentation how to replace it accordingly.
+2019-12-02 12:07:29.306 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2019-12-02 12:07:29.334 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.c.CoreContainer Creating SolrCore 'nutch' using configuration from instancedir /Users/ozrendabic/Desktop/Project/solr/server/solr/nutch, trusted=true
+2019-12-02 12:07:29.359 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.nutch' (registry 'solr.core.nutch') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@14ec4505
+2019-12-02 12:07:29.374 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.c.SolrCore [[nutch] ] Opening new SolrCore at [/Users/ozrendabic/Desktop/Project/solr/server/solr/nutch], dataDir=[/Users/ozrendabic/Desktop/Project/solr/server/solr/nutch/data/]
+2019-12-02 12:07:29.412 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-12-02 12:07:30.155 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-12-02 12:07:30.155 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-12-02 12:07:30.182 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-12-02 12:07:30.182 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-12-02 12:07:30.309 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.s.SolrIndexSearcher Opening [Searcher@2f4fcc0b[nutch] main]
+2019-12-02 12:07:30.320 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/ozrendabic/Desktop/Project/solr/server/solr/nutch/conf
+2019-12-02 12:07:30.342 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-12-02 12:07:30.350 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-12-02 12:07:30.359 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /Users/ozrendabic/Desktop/Project/solr/server/solr/nutch/conf/elevate.xml
+2019-12-02 12:07:30.744 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-12-02 12:07:30.754 INFO  (searcherExecutor-10-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@2f4fcc0b[nutch] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(8.3.0):C1900:[diagnostics={java.vendor=Oracle Corporation, os=Mac OS X, java.version=1.8.0_231, java.vm.version=25.231-b11, lucene.version=8.3.0, os.arch=x86_64, java.runtime.version=1.8.0_231-b11, source=flush, os.version=10.14.6, timestamp=1575235212047}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-12-02 12:07:30.754 INFO  (searcherExecutor-10-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-12-02 12:07:30.754 INFO  (searcherExecutor-10-thread-1-processing-x:nutch) [   x:nutch] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-12-02 12:07:30.754 INFO  (searcherExecutor-10-thread-1-processing-x:nutch) [   x:nutch] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2019-12-02 12:07:30.762 INFO  (searcherExecutor-10-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.SolrCore [nutch] Registered new searcher Searcher@2f4fcc0b[nutch] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(8.3.0):C1900:[diagnostics={java.vendor=Oracle Corporation, os=Mac OS X, java.version=1.8.0_231, java.vm.version=25.231-b11, lucene.version=8.3.0, os.arch=x86_64, java.runtime.version=1.8.0_231-b11, source=flush, os.version=10.14.6, timestamp=1575235212047}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-12-02 12:08:38.213 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=153
+2019-12-02 12:27:42.381 INFO  (qtp1850180796-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1575289662182} status=0 QTime=1
+2019-12-02 12:27:42.407 INFO  (qtp1850180796-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575289662183} status=0 QTime=26
+2019-12-02 12:27:42.427 INFO  (qtp1850180796-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575289662183} status=0 QTime=15
+2019-12-02 12:27:47.646 INFO  (qtp1850180796-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1575289662182} status=0 QTime=0
+2019-12-02 12:27:47.651 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1575289662183&ts=1575289662183} status=503 QTime=2
+2019-12-02 12:27:47.658 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1575289667638} status=0 QTime=8
+2019-12-02 12:27:47.663 INFO  (qtp1850180796-18) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/replication params={wt=json&command=details&_=1575289667639} status=0 QTime=10
+2019-12-02 12:27:47.674 INFO  (qtp1850180796-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575289662183} status=0 QTime=28
+2019-12-02 12:27:47.674 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/system params={wt=json&_=1575289667639} status=0 QTime=24
+2019-12-02 12:28:21.736 INFO  (qtp1850180796-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1575289662182} status=0 QTime=0
+2019-12-02 12:28:21.749 INFO  (qtp1850180796-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575289662183} status=0 QTime=13
+2019-12-02 12:28:26.419 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com&_=1575289701706} hits=1077 status=0 QTime=19
+2019-12-02 12:29:06.454 INFO  (qtp1850180796-41) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com&fl=id,title,content&_=1575289701706} hits=1077 status=0 QTime=6
+2019-12-02 12:30:54.728 INFO  (qtp1850180796-18) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com&fl=id,title,content} hits=1077 status=0 QTime=8
+2019-12-02 12:31:38.907 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com+AND+content:"fridge+|+Yahoo+Answers"~20&fl=id,title,content&_=1575289701706} hits=0 status=0 QTime=15
+2019-12-02 12:31:44.748 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com+AND+content:"tv+|+Yahoo+Answers"~20&fl=id,title,content&_=1575289701706} hits=72 status=0 QTime=22
+2019-12-02 12:32:10.211 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com+AND+content:"phone+|+Yahoo+Answers"~20&fl=id,title,content&_=1575289701706} hits=159 status=0 QTime=17
+2019-12-02 13:04:12.564 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"phone+|+Yahoo+Answers"~20&fl=id,title,content&_=1575289701706} hits=159 status=0 QTime=4
+2019-12-02 13:05:11.807 INFO  (qtp1850180796-41) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com+AND+content:"phone+|+Yahoo+Answers"~20&fl=id,title,content&_=1575289701706} hits=159 status=0 QTime=4
+2019-12-02 13:05:18.853 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"phone+|+Yahoo+Answers"~20&fl=id,title,content&_=1575289701706} hits=159 status=0 QTime=4
+2019-12-02 13:05:36.619 INFO  (qtp1850180796-41) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"phone+Yahoo+Answers"~20&fl=id,title,content&_=1575289701706} hits=159 status=0 QTime=4
+2019-12-02 13:05:47.129 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"phone+|+Yahoo+Answers"~20&fl=id,title,content&_=1575289701706} hits=159 status=0 QTime=4
+2019-12-02 13:05:53.345 INFO  (qtp1850180796-41) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"s3+|+Yahoo+Answers"~20&fl=id,title,content&_=1575289701706} hits=31 status=0 QTime=11
+2019-12-02 13:06:06.342 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"s3+|+Yahoo+Answers"~20&fl=id,title,content&rows=31&_=1575289701706} hits=31 status=0 QTime=11
+2019-12-02 13:06:35.792 INFO  (qtp1850180796-45) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"galaxy+s3+|+Yahoo+Answers"~20&fl=id,title,content&rows=31&_=1575289701706} hits=25 status=0 QTime=7
+2019-12-02 13:07:26.059 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,content&rows=31&_=1575289701706} hits=64 status=0 QTime=6
+2019-12-02 13:09:20.321 INFO  (qtp1850180796-16) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"galaxy+s3"~22&fl=id,title,content&rows=31&_=1575289701706} hits=64 status=0 QTime=4
+2019-12-02 13:09:37.035 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,content&rows=31&_=1575289701706} hits=64 status=0 QTime=3
+2019-12-02 13:09:38.856 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,content&rows=31&_=1575289701706} hits=64 status=0 QTime=3
+2019-12-02 13:26:44.379 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,content&rows=31} hits=64 status=0 QTime=2
+2019-12-02 13:27:45.694 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,content&rows=31&_=1575289701706} hits=64 status=0 QTime=3
+2019-12-02 13:28:17.181 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,content&rows=31} hits=64 status=0 QTime=2
+2019-12-02 13:28:35.746 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,content&rows=31&_=1575289701706} hits=64 status=0 QTime=3
+2019-12-02 13:28:50.391 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:\"galaxy+s3\"~20&fl=id,title,content&rows=31&_=1575289701706} hits=270 status=0 QTime=29
+2019-12-02 13:28:57.613 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,content&rows=31&_=1575289701706} hits=64 status=0 QTime=3
+2019-12-02 13:29:10.278 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,content&rows=31} hits=64 status=0 QTime=3
+2019-12-02 13:29:25.604 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,content&rows=31} hits=64 status=0 QTime=2
+2019-12-02 13:30:40.107 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=2
+2019-12-02 13:30:43.073 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=2
+2019-12-02 13:30:49.609 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,url,content&start=0} hits=64 status=0 QTime=7
+2019-12-02 13:30:52.391 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s3"&fl=id,title,url,content&start=0} hits=55 status=0 QTime=7
+2019-12-02 13:30:55.028 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,url,content&start=0} hits=64 status=0 QTime=2
+2019-12-02 13:31:21.506 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=0} hits=29 status=0 QTime=5
+2019-12-02 13:31:37.638 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,content&rows=31} hits=64 status=0 QTime=3
+2019-12-02 13:32:14.869 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"Best+Answer+galaxy+s3"~10000&fl=id,title,content&rows=31&_=1575289701706} hits=67 status=0 QTime=6
+2019-12-02 13:32:48.327 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"Best+Answer+galaxy+s3"~10000&fl=id,title,content&rows=31} hits=67 status=0 QTime=3
+2019-12-02 13:33:18.766 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:(*samsung*+OR+*Samsung*)+AND+%2Bhost:answers.yahoo.com+AND+%2Bcontent:"Answer+Save+galaxy+s3"~10000&fl=id,title,content&rows=31&_=1575289701706} hits=68 status=0 QTime=5
+2019-12-02 13:34:38.775 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy"~100000&fl=id,title,url,content&start=0} hits=269 status=0 QTime=7
+2019-12-02 13:35:32.942 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=0} hits=30 status=0 QTime=6
+2019-12-02 13:35:42.700 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=0} hits=29 status=0 QTime=2
+2019-12-02 13:35:46.800 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=0} hits=30 status=0 QTime=2
+2019-12-02 13:35:50.295 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=0} hits=30 status=0 QTime=2
+2019-12-02 13:35:51.959 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=0} hits=29 status=0 QTime=2
+2019-12-02 13:36:11.221 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=0} hits=30 status=0 QTime=1
+2019-12-02 13:36:16.770 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s3"~100000&fl=id,title,url,content&start=0} hits=68 status=0 QTime=5
+2019-12-02 13:36:19.698 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,url,content&start=0} hits=64 status=0 QTime=2
+2019-12-02 13:36:22.046 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s3"~100000&fl=id,title,url,content&start=0} hits=68 status=0 QTime=2
+2019-12-02 13:36:24.348 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,url,content&start=0} hits=64 status=0 QTime=2
+2019-12-02 13:36:27.682 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s3"~100000&fl=id,title,url,content&start=0} hits=68 status=0 QTime=2
+2019-12-02 13:37:35.429 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s3"&fl=id,title,url,content&start=0} hits=0 status=0 QTime=4
+2019-12-02 13:37:45.923 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s3"&fl=id,title,url,content&start=0} hits=0 status=0 QTime=2
+2019-12-02 13:37:52.752 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 13:37:57.380 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s3"~100000&fl=id,title,url,content&start=0} hits=68 status=0 QTime=2
+2019-12-02 13:37:59.162 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,url,content&start=0} hits=64 status=0 QTime=1
+2019-12-02 13:38:02.054 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s3"~100000&fl=id,title,url,content&start=0} hits=68 status=0 QTime=1
+2019-12-02 13:38:27.968 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+samsung+tv"~100000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=8
+2019-12-02 13:38:30.849 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"samsung+tv"~20&fl=id,title,url,content&start=0} hits=156 status=0 QTime=6
+2019-12-02 13:38:37.255 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+samsung+tv"~100000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-02 13:43:05.795 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+fridge"~100000&fl=id,title,url,content&start=0} hits=3 status=0 QTime=5
+2019-12-02 13:43:14.056 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"fridge"~20&fl=id,title,url,content&start=0} hits=3 status=0 QTime=4
+2019-12-02 13:43:33.242 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+fridge"~100000&fl=id,title,url,content&start=0} hits=3 status=0 QTime=1
+2019-12-02 13:43:37.110 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"fridge"~20&fl=id,title,url,content&start=0} hits=3 status=0 QTime=2
+2019-12-02 13:44:26.358 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+s3"~100000&fl=id,title,url,content&start=0} hits=77 status=0 QTime=4
+2019-12-02 13:44:37.828 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+s4"~100000&fl=id,title,url,content&start=0} hits=35 status=0 QTime=4
+2019-12-02 13:44:40.473 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"s4"~20&fl=id,title,url,content&start=0} hits=35 status=0 QTime=3
+2019-12-02 13:44:44.009 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+s4"~100000&fl=id,title,url,content&start=0} hits=35 status=0 QTime=1
+2019-12-02 13:44:48.568 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=0} hits=30 status=0 QTime=2
+2019-12-02 13:44:51.736 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=0} hits=29 status=0 QTime=1
+2019-12-02 13:44:54.889 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=0} hits=30 status=0 QTime=1
+2019-12-02 13:45:01.736 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=10} hits=30 status=0 QTime=2
+2019-12-02 13:45:04.349 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=20} hits=30 status=0 QTime=6
+2019-12-02 13:45:16.521 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=0} hits=29 status=0 QTime=1
+2019-12-02 13:45:18.704 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=10} hits=29 status=0 QTime=2
+2019-12-02 13:45:20.639 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=20} hits=29 status=0 QTime=4
+2019-12-02 13:46:28.215 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=0} hits=30 status=0 QTime=1
+2019-12-02 13:46:30.319 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=10} hits=30 status=0 QTime=1
+2019-12-02 13:46:32.075 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=20} hits=30 status=0 QTime=1
+2019-12-02 13:47:15.610 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=0} hits=29 status=0 QTime=1
+2019-12-02 13:47:17.707 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=10} hits=29 status=0 QTime=2
+2019-12-02 13:47:19.579 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=20} hits=29 status=0 QTime=2
+2019-12-02 13:49:21.708 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Poll:+iPhone+6+or+Samsung+Galaxy+Note+3?"~20&fl=id,title,url,content&start=0} hits=1 status=0 QTime=7
+2019-12-02 13:50:19.834 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 13:50:29.277 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=0} hits=30 status=0 QTime=1
+2019-12-02 13:50:33.725 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=10} hits=30 status=0 QTime=2
+2019-12-02 13:50:35.739 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=20} hits=30 status=0 QTime=1
+2019-12-02 13:50:46.750 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=0} hits=29 status=0 QTime=1
+2019-12-02 13:50:49.240 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=10} hits=29 status=0 QTime=2
+2019-12-02 13:50:51.438 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=20} hits=29 status=0 QTime=2
+2019-12-02 13:51:04.619 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Poll:+iPhone+6+or+Samsung+Galaxy+Note+3?"~20&fl=id,title,url,content&start=0} hits=1 status=0 QTime=1
+2019-12-02 13:51:10.633 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Poll:+iPhone+6+or+Samsung+Galaxy+Note+3?"~20&fl=id,title,url,content&start=0} hits=1 status=0 QTime=2
+2019-12-02 13:51:58.258 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:".filter(str+%3D>+str+!%3D+"")"~20&fl=id,title,url,content&start=0} hits=0 status=0 QTime=4
+2019-12-02 13:52:08.295 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=0} hits=29 status=0 QTime=2
+2019-12-02 13:52:10.821 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=10} hits=29 status=0 QTime=1
+2019-12-02 13:52:12.825 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=20} hits=29 status=0 QTime=1
+2019-12-02 13:52:23.481 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Poll:+iPhone+6+or+Samsung+Galaxy+Note+3?"~20&fl=id,title,url,content&start=0} hits=1 status=0 QTime=1
+2019-12-02 13:52:38.896 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Poll:+iPhone+6+or+Samsung+Galaxy+Note+3?"~20&fl=id,title,url,content&start=0} hits=1 status=0 QTime=1
+2019-12-02 13:53:37.098 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+Poll:+iPhone+6+or+Samsung+Galaxy+Note+3?"~100000&fl=id,title,url,content&start=0} hits=1 status=0 QTime=4
+2019-12-02 13:53:45.337 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=2
+2019-12-02 13:53:47.610 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 13:53:49.610 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 13:54:06.960 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 13:54:13.339 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=0} hits=30 status=0 QTime=1
+2019-12-02 13:54:22.368 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=10} hits=30 status=0 QTime=2
+2019-12-02 13:58:08.078 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s2"~100000&fl=id,title,url,content&start=0} hits=48 status=0 QTime=5
+2019-12-02 13:58:10.572 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s2"~20&fl=id,title,url,content&start=0} hits=46 status=0 QTime=4
+2019-12-02 13:58:12.690 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s2"~100000&fl=id,title,url,content&start=0} hits=48 status=0 QTime=1
+2019-12-02 13:58:16.452 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s2"~100000&fl=id,title,url,content&start=10} hits=48 status=0 QTime=2
+2019-12-02 13:58:19.316 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s2"~100000&fl=id,title,url,content&start=20} hits=48 status=0 QTime=4
+2019-12-02 13:58:22.186 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s2"~100000&fl=id,title,url,content&start=30} hits=48 status=0 QTime=2
+2019-12-02 13:58:31.812 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s2"~20&fl=id,title,url,content&start=0} hits=46 status=0 QTime=1
+2019-12-02 13:58:35.127 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s2"~20&fl=id,title,url,content&start=10} hits=46 status=0 QTime=1
+2019-12-02 13:58:37.653 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s2"~20&fl=id,title,url,content&start=20} hits=46 status=0 QTime=4
+2019-12-02 13:58:39.913 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s2"~20&fl=id,title,url,content&start=30} hits=46 status=0 QTime=2
+2019-12-02 13:59:33.973 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s2"~100000&fl=id,title,url,content&start=0} hits=48 status=0 QTime=1
+2019-12-02 13:59:36.410 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s2"~100000&fl=id,title,url,content&start=10} hits=48 status=0 QTime=2
+2019-12-02 13:59:38.769 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s2"~100000&fl=id,title,url,content&start=20} hits=48 status=0 QTime=1
+2019-12-02 13:59:43.424 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s2"~20&fl=id,title,url,content&start=0} hits=46 status=0 QTime=1
+2019-12-02 13:59:45.483 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s2"~20&fl=id,title,url,content&start=10} hits=46 status=0 QTime=2
+2019-12-02 13:59:48.412 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s2"~20&fl=id,title,url,content&start=20} hits=46 status=0 QTime=1
+2019-12-02 14:00:14.348 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 14:05:21.347 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 14:05:24.797 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+something"~100000&fl=id,title,url,content&start=0} hits=74 status=0 QTime=6
+2019-12-02 14:05:26.761 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"something"~20&fl=id,title,url,content&start=0} hits=74 status=0 QTime=4
+2019-12-02 14:05:35.385 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"tv"~20&fl=id,title,url,content&start=0} hits=195 status=0 QTime=9
+2019-12-02 14:05:40.255 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+tv"~100000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=5
+2019-12-02 14:06:05.584 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"tv"~20&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-02 14:06:09.939 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"fridge"~20&fl=id,title,url,content&start=0} hits=3 status=0 QTime=1
+2019-12-02 14:06:18.643 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy"~20&fl=id,title,url,content&start=0} hits=269 status=0 QTime=4
+2019-12-02 14:06:21.791 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy"~100000&fl=id,title,url,content&start=0} hits=269 status=0 QTime=1
+2019-12-02 14:06:39.300 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+note"~100000&fl=id,title,url,content&start=0} hits=45 status=0 QTime=23
+2019-12-02 14:06:42.409 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+note"~20&fl=id,title,url,content&start=0} hits=39 status=0 QTime=3
+2019-12-02 14:09:03.000 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 14:09:11.703 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=10} hits=1068 status=0 QTime=2
+2019-12-02 14:09:42.678 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 14:09:47.636 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=10} hits=1068 status=0 QTime=1
+2019-12-02 14:09:49.375 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=20} hits=1068 status=0 QTime=4
+2019-12-02 14:10:01.311 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+tv"~100000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-02 14:10:10.551 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+fridge"~100000&fl=id,title,url,content&start=0} hits=3 status=0 QTime=1
+2019-12-02 14:13:25.324 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 14:13:43.925 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=10} hits=1068 status=0 QTime=1
+2019-12-02 14:21:59.748 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s2"~100000&fl=id,title,url,content&start=0} hits=48 status=0 QTime=1
+2019-12-02 14:22:02.945 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s2"~20&fl=id,title,url,content&start=0} hits=46 status=0 QTime=1
+2019-12-02 14:22:10.845 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s2"~100000&fl=id,title,url,content&start=0} hits=48 status=0 QTime=1
+2019-12-02 15:13:42.136 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+Somebody+once+told+me"~100000&fl=id,title,url,content&start=0} hits=0 status=0 QTime=4
+2019-12-02 15:13:46.065 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+Once"~100000&fl=id,title,url,content&start=0} hits=42 status=0 QTime=5
+2019-12-02 15:14:00.411 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+samsung+s3"~100000&fl=id,title,url,content&start=0} hits=77 status=0 QTime=3
+2019-12-02 15:14:06.519 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+s3"~100000&fl=id,title,url,content&start=0} hits=77 status=0 QTime=1
+2019-12-02 15:14:11.891 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"s3"~20&fl=id,title,url,content&start=0} hits=77 status=0 QTime=3
+2019-12-02 15:14:17.629 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"s4"~20&fl=id,title,url,content&start=0} hits=35 status=0 QTime=1
+2019-12-02 15:14:19.507 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+s4"~100000&fl=id,title,url,content&start=0} hits=35 status=0 QTime=1
+2019-12-02 15:14:28.538 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=0} hits=30 status=0 QTime=1
+2019-12-02 15:14:32.139 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=10} hits=30 status=0 QTime=1
+2019-12-02 15:14:37.751 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=20} hits=30 status=0 QTime=1
+2019-12-02 15:14:58.517 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=0} hits=29 status=0 QTime=1
+2019-12-02 15:15:00.687 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=10} hits=29 status=0 QTime=1
+2019-12-02 15:15:02.623 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=20} hits=29 status=0 QTime=1
+2019-12-02 15:17:06.751 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,url,content&start=0} hits=64 status=0 QTime=1
+2019-12-02 15:17:09.815 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s3"~100000&fl=id,title,url,content&start=0} hits=68 status=0 QTime=1
+2019-12-02 15:17:11.887 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,url,content&start=0} hits=64 status=0 QTime=1
+2019-12-02 15:17:13.858 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s3"~100000&fl=id,title,url,content&start=0} hits=68 status=0 QTime=1
+2019-12-02 15:17:17.748 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,url,content&start=0} hits=64 status=0 QTime=1
+2019-12-02 15:17:18.099 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s3"~20&fl=id,title,url,content&start=0} hits=64 status=0 QTime=1
+2019-12-02 15:21:15.489 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 15:23:55.529 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 15:23:59.103 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=10} hits=1068 status=0 QTime=1
+2019-12-02 15:24:01.798 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=20} hits=1068 status=0 QTime=1
+2019-12-02 15:26:23.269 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=2
+2019-12-02 15:31:28.809 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 15:31:31.248 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 15:31:44.347 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 15:31:48.363 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"some+thing"~20&fl=id,title,url,content&start=0} hits=9 status=0 QTime=5
+2019-12-02 15:31:49.910 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+some+thing"~100000&fl=id,title,url,content&start=0} hits=30 status=0 QTime=4
+2019-12-02 15:32:00.675 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"some+thing"~20&fl=id,title,url,content&start=0} hits=9 status=0 QTime=1
+2019-12-02 15:32:29.465 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"s3"~20&fl=id,title,url,content&start=0} hits=77 status=0 QTime=1
+2019-12-02 15:32:31.337 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+s3"~100000&fl=id,title,url,content&start=0} hits=77 status=0 QTime=1
+2019-12-02 15:32:33.848 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"s3"~20&fl=id,title,url,content&start=0} hits=77 status=0 QTime=1
+2019-12-02 15:32:38.826 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"s4"~20&fl=id,title,url,content&start=0} hits=35 status=0 QTime=1
+2019-12-02 15:32:41.137 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+s4"~100000&fl=id,title,url,content&start=0} hits=35 status=0 QTime=1
+2019-12-02 15:32:52.570 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s4"~100000&fl=id,title,url,content&start=0} hits=30 status=0 QTime=1
+2019-12-02 15:32:54.056 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s4"~20&fl=id,title,url,content&start=0} hits=29 status=0 QTime=1
+2019-12-02 15:33:23.286 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy"~100000&fl=id,title,url,content&start=0} hits=269 status=0 QTime=1
+2019-12-02 15:33:25.113 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy"~20&fl=id,title,url,content&start=0} hits=269 status=0 QTime=1
+2019-12-02 15:33:27.887 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy"~100000&fl=id,title,url,content&start=0} hits=269 status=0 QTime=1
+2019-12-02 15:33:33.459 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy"~20&fl=id,title,url,content&start=0} hits=269 status=0 QTime=1
+2019-12-02 15:33:55.939 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"samsung+galaxy"~20&fl=id,title,url,content&start=0} hits=264 status=0 QTime=4
+2019-12-02 15:34:02.828 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+samsung+galaxy"~100000&fl=id,title,url,content&start=0} hits=269 status=0 QTime=4
+2019-12-02 15:34:26.752 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+samsung+galaxy"~100000&fl=id,title,url,content&start=10} hits=269 status=0 QTime=1
+2019-12-02 15:34:39.668 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"which+is+better"~20&fl=id,title,url,content&start=0} hits=199 status=0 QTime=5
+2019-12-02 15:34:52.150 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"which+is+better+s2+or+s3"~20&fl=id,title,url,content&start=0} hits=2 status=0 QTime=3
+2019-12-02 15:35:13.446 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+which+is+better+s2+or+s3"~100000&fl=id,title,url,content&start=0} hits=12 status=0 QTime=3
+2019-12-02 15:35:30.656 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+computer"~100000&fl=id,title,url,content&start=0} hits=134 status=0 QTime=5
+2019-12-02 15:35:54.496 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+YP-K3"~100000&fl=id,title,url,content&start=0} hits=2 status=0 QTime=4
+2019-12-02 15:36:12.022 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"YP-K3"~20&fl=id,title,url,content&start=0} hits=2 status=0 QTime=3
+2019-12-02 15:36:18.520 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+YP-K3"~100000&fl=id,title,url,content&start=0} hits=2 status=0 QTime=1
+2019-12-02 15:37:10.605 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+YP-K3"~100000&fl=id,title,url,content&start=0} hits=2 status=0 QTime=1
+2019-12-02 15:37:17.089 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+YP-K3"~100000&fl=id,title,url,content&start=0} hits=2 status=0 QTime=1
+2019-12-02 15:38:22.402 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+YP-K3"~100000&fl=id,title,url,content&start=0} hits=2 status=0 QTime=1
+2019-12-02 15:38:36.948 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"Answer+Save+There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+YP-K3"~100000&fl=id,title,url,content&start=0} hits=2 status=0 QTime=2
+2019-12-02 15:39:22.629 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+YP-K3"~100000&fl=id,title,url,content&start=0} hits=2 status=0 QTime=3
+2019-12-02 15:39:32.459 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+YP-K3"~100000&fl=id,title,url,content&start=0} hits=2 status=0 QTime=1
+2019-12-02 15:40:03.886 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+YP-K3"~100000&fl=id,title,url,content&start=0} hits=2 status=0 QTime=1
+2019-12-02 15:57:13.003 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+some+tokens"~100000&fl=id,title,url,content&start=0} hits=0 status=0 QTime=3
+2019-12-02 15:57:19.755 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+tokens"~100000&fl=id,title,url,content&start=0} hits=0 status=0 QTime=3
+2019-12-02 15:57:23.245 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+s3"~100000&fl=id,title,url,content&start=0} hits=77 status=0 QTime=3
+2019-12-02 15:57:26.626 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+s3"~100000&fl=id,title,url,content&start=0} hits=77 status=0 QTime=1
+2019-12-02 15:57:31.203 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+s3"~100000&fl=id,title,url,content&start=0} hits=77 status=0 QTime=1
+2019-12-02 15:57:37.452 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+s3+$"~100000&fl=id,title,url,content&start=0} hits=77 status=0 QTime=1
+2019-12-02 15:57:59.157 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+100$"~100000&fl=id,title,url,content&start=0} hits=73 status=0 QTime=5
+2019-12-02 15:58:49.995 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+100$"~100000&fl=id,title,url,content&start=0} hits=73 status=0 QTime=1
+2019-12-02 15:58:56.771 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+100$"~100000&fl=id,title,url,content&start=0} hits=73 status=0 QTime=2
+2019-12-02 16:07:42.026 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+fetch+free"~100000&fl=id,title,url,content&start=0} hits=0 status=0 QTime=3
+2019-12-02 16:07:48.019 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+free+phone"~100000&fl=id,title,url,content&start=0} hits=354 status=0 QTime=6
+2019-12-02 16:08:03.058 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+free+phone"~100000&fl=id,title,url,content&start=0} hits=354 status=0 QTime=1
+2019-12-02 16:11:38.089 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+mobile+phone"~100000&fl=id,title,url,content&start=0} hits=740 status=0 QTime=5
+2019-12-02 16:11:47.157 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+phone"~100000&fl=id,title,url,content&start=0} hits=740 status=0 QTime=5
+2019-12-02 16:12:01.365 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+phone"~100000&fl=id,title,url,content&start=0} hits=740 status=0 QTime=1
+2019-12-02 16:14:36.881 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"phone"~15&fl=id,title,url,content&start=0} hits=740 status=0 QTime=3
+2019-12-02 16:14:47.460 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"phone"~15&fl=id,title,url,content&start=0} hits=740 status=0 QTime=1
+2019-12-02 16:16:31.421 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+phone"~100000&fl=id,title,url,content&start=0} hits=740 status=0 QTime=1
+2019-12-02 16:16:33.373 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"phone+Yahoo+Answers"~20&fl=id,title,url,content&start=0} hits=156 status=0 QTime=4
+2019-12-02 16:19:38.967 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+phone"~100000&fl=id,title,url,content&start=0} hits=740 status=0 QTime=1
+2019-12-02 16:19:41.753 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"phone+Yahoo+Answers"~15&fl=id,title,url,content&start=0} hits=109 status=0 QTime=3
+2019-12-02 16:19:55.936 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"phone+Yahoo+Answers"~15&fl=id,title,url,content&start=10} hits=109 status=0 QTime=2
+2019-12-02 16:19:58.234 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"phone+Yahoo+Answers"~15&fl=id,title,url,content&start=20} hits=109 status=0 QTime=5
+2019-12-02 16:20:05.018 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s3+Yahoo+Answers"~15&fl=id,title,url,content&start=0} hits=25 status=0 QTime=4
+2019-12-02 16:20:06.599 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s3"~100000&fl=id,title,url,content&start=0} hits=68 status=0 QTime=4
+2019-12-02 16:20:16.458 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s3"~100000&fl=id,title,url,content&start=10} hits=68 status=0 QTime=2
+2019-12-02 16:20:19.377 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+galaxy+s3"~100000&fl=id,title,url,content&start=20} hits=68 status=0 QTime=4
+2019-12-02 16:20:26.019 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s3+Yahoo+Answers"~15&fl=id,title,url,content&start=0} hits=25 status=0 QTime=1
+2019-12-02 16:20:35.487 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s3+Yahoo+Answers"~15&fl=id,title,url,content&start=10} hits=25 status=0 QTime=2
+2019-12-02 16:20:40.683 INFO  (qtp1850180796-50) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"galaxy+s3+Yahoo+Answers"~15&fl=id,title,url,content&start=20} hits=25 status=0 QTime=4
+2019-12-02 16:22:16.218 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+s3"~100000&fl=id,title,url,content&start=0} hits=77 status=0 QTime=1
+2019-12-02 16:22:17.923 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"s3+Yahoo+Answers"~15&fl=id,title,url,content&start=0} hits=31 status=0 QTime=3
+2019-12-02 16:22:31.643 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"fridge+Yahoo+Answers"~15&fl=id,title,url,content&start=0} hits=0 status=0 QTime=3
+2019-12-02 16:22:33.555 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+fridge"~100000&fl=id,title,url,content&start=0} hits=3 status=0 QTime=4
+2019-12-02 16:22:48.206 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"fridge+Yahoo+Answers"~15&fl=id,title,url,content&start=0} hits=0 status=0 QTime=1
+2019-12-02 16:22:50.504 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+fridge"~100000&fl=id,title,url,content&start=0} hits=3 status=0 QTime=2
+2019-12-02 16:23:02.576 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+tv"~100000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=4
+2019-12-02 16:23:23.081 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"tv+Yahoo+Answers"~15&fl=id,title,url,content&start=0} hits=71 status=0 QTime=4
+2019-12-02 16:23:28.271 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+tv"~100000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-02 16:23:46.090 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=4
+2019-12-02 16:23:58.150 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"tv+Yahoo+Answers"~15&fl=id,title,url,content&start=0} hits=71 status=0 QTime=2
+2019-12-02 16:24:02.243 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-02 16:24:15.397 INFO  (qtp1850180796-46) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-02 16:24:19.065 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"tv+Yahoo+Answers"~15&fl=id,title,url,content&start=0} hits=71 status=0 QTime=1
+2019-12-02 16:24:28.210 INFO  (qtp1850180796-52) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-02 16:24:29.616 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"tv+Yahoo+Answers"~15&fl=id,title,url,content&start=0} hits=71 status=0 QTime=1
+2019-12-02 16:24:37.574 INFO  (qtp1850180796-52) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-02 16:24:39.294 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"tv+Yahoo+Answers"~15&fl=id,title,url,content&start=0} hits=71 status=0 QTime=2
+2019-12-02 16:25:05.415 INFO  (qtp1850180796-52) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-02 16:27:14.693 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-02 16:27:18.988 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"Answer+Save+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=2
+2019-12-02 16:28:01.314 INFO  (qtp1850180796-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1575304081123} status=0 QTime=0
+2019-12-02 16:28:01.329 INFO  (qtp1850180796-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575304081124} status=0 QTime=14
+2019-12-02 16:28:01.343 INFO  (qtp1850180796-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575304081124} status=0 QTime=12
+2019-12-02 16:28:03.003 INFO  (qtp1850180796-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1575304081123} status=0 QTime=0
+2019-12-02 16:28:03.008 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1575304082995} status=0 QTime=0
+2019-12-02 16:28:03.009 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/replication params={wt=json&command=details&_=1575304082995} status=0 QTime=1
+2019-12-02 16:28:03.011 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1575304081124&ts=1575304081124} status=503 QTime=0
+2019-12-02 16:28:03.045 INFO  (qtp1850180796-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575304081124} status=0 QTime=40
+2019-12-02 16:28:03.045 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/system params={wt=json&_=1575304082995} status=0 QTime=35
+2019-12-02 16:28:06.590 INFO  (qtp1850180796-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1575304081123} status=0 QTime=0
+2019-12-02 16:28:06.603 INFO  (qtp1850180796-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575304081124} status=0 QTime=12
+2019-12-02 16:28:23.485 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:"ago\n+tv"&_=1575304086563} hits=0 status=0 QTime=0
+2019-12-02 16:28:30.461 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:"ago\n"&_=1575304086563} hits=0 status=0 QTime=0
+2019-12-02 16:28:35.353 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:"ago"&_=1575304086563} hits=1803 status=0 QTime=0
+2019-12-02 16:30:50.590 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=6
+2019-12-02 16:31:05.727 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"tv+Yahoo+Answers"~15&fl=id,title,url,content&start=0} hits=71 status=0 QTime=2
+2019-12-02 16:31:09.755 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-02 16:31:21.555 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=10} hits=195 status=0 QTime=3
+2019-12-02 16:31:28.690 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=20} hits=195 status=0 QTime=4
+2019-12-02 16:31:34.705 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=30} hits=195 status=0 QTime=3
+2019-12-02 16:31:44.569 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=40} hits=195 status=0 QTime=6
+2019-12-02 16:31:49.061 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=50} hits=195 status=0 QTime=2
+2019-12-02 16:32:04.928 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=60} hits=195 status=0 QTime=5
+2019-12-02 16:32:11.481 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=70} hits=195 status=0 QTime=3
+2019-12-02 16:32:34.816 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"tv+Yahoo+Answers"~15&fl=id,title,url,content&start=0} hits=71 status=0 QTime=1
+2019-12-02 16:36:20.955 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-02 16:40:58.192 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=3
+2019-12-02 16:41:06.460 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+adding+something"~1000&fl=id,title,url,content&start=0} hits=0 status=0 QTime=3
+2019-12-02 16:41:18.295 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+adding+something+else"~1000&fl=id,title,url,content&start=0} hits=0 status=0 QTime=3
+2019-12-02 16:42:58.739 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-02 16:46:53.824 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv+search"~1000&fl=id,title,url,content&start=0} hits=8 status=0 QTime=4
+2019-12-02 16:46:57.235 INFO  (qtp1850180796-59) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv+search"~1000&fl=id,title,url,content&start=0} hits=8 status=0 QTime=1
+2019-12-02 16:47:02.574 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv+search+something"~1000&fl=id,title,url,content&start=0} hits=1 status=0 QTime=3
+2019-12-02 16:47:11.710 INFO  (qtp1850180796-59) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv+search+something"~1000&fl=id,title,url,content&start=0} hits=1 status=0 QTime=1
+2019-12-02 16:50:31.930 INFO  (qtp1850180796-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1575305431749} status=0 QTime=0
+2019-12-02 16:50:31.950 INFO  (qtp1850180796-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575305431749} status=0 QTime=19
+2019-12-02 16:50:31.965 INFO  (qtp1850180796-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575305431749} status=0 QTime=13
+2019-12-02 16:50:33.592 INFO  (qtp1850180796-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1575305431749} status=0 QTime=0
+2019-12-02 16:50:33.595 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1575305433585} status=0 QTime=0
+2019-12-02 16:50:33.596 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/replication params={wt=json&command=details&_=1575305433586} status=0 QTime=0
+2019-12-02 16:50:33.598 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1575305431749&ts=1575305431749} status=503 QTime=0
+2019-12-02 16:50:33.617 INFO  (qtp1850180796-66) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575305431749} status=0 QTime=25
+2019-12-02 16:50:33.618 INFO  (qtp1850180796-62) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/system params={wt=json&_=1575305433586} status=0 QTime=22
+2019-12-02 16:50:35.076 INFO  (qtp1850180796-59) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1575305431749} status=0 QTime=0
+2019-12-02 16:50:35.088 INFO  (qtp1850180796-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575305431749} status=0 QTime=12
+2019-12-02 16:50:39.704 INFO  (qtp1850180796-66) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com&_=1575305435047} hits=1077 status=0 QTime=1
+2019-12-02 16:51:51.453 ERROR (qtp1850180796-43) [   x:nutch] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'content:(*samsung* OR *Samsung*) AND host:answers.yahoo.com AND +id:https://answers.yahoo.com/question/index?qid=20061022084306AApXSNX^2': Encountered " ":" ": "" at line 1, column 73.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:279)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:198)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2576)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:803)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:582)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:424)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:351)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:311)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:265)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:152)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'content:(*samsung* OR *Samsung*) AND host:answers.yahoo.com AND +id:https://answers.yahoo.com/question/index?qid=20061022084306AApXSNX^2': Encountered " ":" ": "" at line 1, column 73.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:264)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:174)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 44 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " ":" ": "" at line 1, column 73.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:132)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:260)
+	... 47 more
+
+2019-12-02 16:51:51.453 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com+AND+%2Bid:https://answers.yahoo.com/question/index?qid%3D20061022084306AApXSNX^2&_=1575305435047} status=400 QTime=3
+2019-12-02 16:52:09.071 ERROR (qtp1850180796-66) [   x:nutch] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'content:(*samsung* OR *Samsung*) AND host:answers.yahoo.com AND +id:https://answers.yahoo.com/question/index?qid=20061022084306AApXSNX^2': Encountered " ":" ": "" at line 1, column 73.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:279)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:198)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2576)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:803)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:582)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:424)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:351)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:311)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:265)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:152)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'content:(*samsung* OR *Samsung*) AND host:answers.yahoo.com AND +id:https://answers.yahoo.com/question/index?qid=20061022084306AApXSNX^2': Encountered " ":" ": "" at line 1, column 73.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:264)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:174)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 44 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " ":" ": "" at line 1, column 73.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:132)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:260)
+	... 47 more
+
+2019-12-02 16:52:09.071 INFO  (qtp1850180796-66) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com+AND+%2Bid:https://answers.yahoo.com/question/index?qid%3D20061022084306AApXSNX^2} status=400 QTime=3
+2019-12-02 16:52:39.475 ERROR (qtp1850180796-43) [   x:nutch] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'content:(*samsung* OR *Samsung*) AND host:answers.yahoo.com AND +id:https:\/\/answers.yahoo.com\/question\/index\?qid\=20061022084306AApXSNX^2': Encountered " ":" ": "" at line 1, column 73.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:279)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:198)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2576)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:803)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:582)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:424)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:351)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:311)
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:265)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:152)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'content:(*samsung* OR *Samsung*) AND host:answers.yahoo.com AND +id:https:\/\/answers.yahoo.com\/question\/index\?qid\=20061022084306AApXSNX^2': Encountered " ":" ": "" at line 1, column 73.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:264)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:174)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 44 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " ":" ": "" at line 1, column 73.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:132)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:260)
+	... 47 more
+
+2019-12-02 16:52:39.475 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com+AND+%2Bid:https:\/\/answers.yahoo.com\/question\/index\?qid\%3D20061022084306AApXSNX^2&_=1575305435047} status=400 QTime=2
+2019-12-02 16:52:51.020 INFO  (qtp1850180796-61) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com+AND+%2Bid:https\:\/\/answers.yahoo.com\/question\/index\?qid\%3D20061022084306AApXSNX^2&_=1575305435047} hits=1 status=0 QTime=6
+2019-12-02 16:52:57.979 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com+AND+id:https\:\/\/answers.yahoo.com\/question\/index\?qid\%3D20061022084306AApXSNX^2&_=1575305435047} hits=1 status=0 QTime=1
+2019-12-02 16:53:06.087 INFO  (qtp1850180796-61) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com+OR+id:https\:\/\/answers.yahoo.com\/question\/index\?qid\%3D20061022084306AApXSNX^2&_=1575305435047} hits=1077 status=0 QTime=4
+2019-12-02 16:53:19.404 INFO  (qtp1850180796-43) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com&_=1575305435047} hits=1077 status=0 QTime=1
+2019-12-02 17:02:12.465 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com+OR+id:20061022084306AApXSNX^2&_=1575305435047} hits=1077 status=0 QTime=3
+2019-12-02 17:02:13.349 INFO  (qtp1850180796-66) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com+OR+id:20061022084306AApXSNX^2&_=1575305435047} hits=1077 status=0 QTime=2
+2019-12-02 17:03:00.193 INFO  (qtp1850180796-72) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com&_=1575305435047} hits=1077 status=0 QTime=2
+2019-12-02 17:03:06.143 INFO  (qtp1850180796-66) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com+OR+id:20061022084306AApXSNX^2&_=1575305435047} hits=1077 status=0 QTime=2
+2019-12-02 17:03:17.116 INFO  (qtp1850180796-72) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com+OR+id:*20061022084306AApXSNX^2&_=1575305435047} hits=1077 status=0 QTime=6
+2019-12-02 17:05:06.590 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 17:09:19.490 INFO  (qtp1850180796-62) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 17:09:21.720 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"&fl=id,title,url,content&start=0} hits=1068 status=0 QTime=1
+2019-12-02 17:09:28.353 INFO  (qtp1850180796-62) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=0} hits=195 status=0 QTime=1
+2019-12-02 17:09:31.798 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"ago+tv"~1000&fl=id,title,url,content&start=10} hits=195 status=0 QTime=2
+2019-12-02 17:09:40.567 INFO  (qtp1850180796-62) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:"tv+Yahoo+Answers"~15&fl=id,title,url,content&start=0} hits=71 status=0 QTime=1
+2019-12-02 17:16:31.637 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=content:(*samsung*+OR+*Samsung*)+AND+host:answers.yahoo.com+OR+id:*20061022084306AApXSNX^2} hits=1077 status=0 QTime=2
+2019-12-02 19:07:36.858 INFO  (ShutdownMonitor) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@4b2bac3f{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2019-12-02 19:07:36.858 INFO  (ShutdownMonitor) [   ] o.e.j.s.session node0 Stopped scavenging
+2019-12-02 19:07:36.860 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=91323447
+2019-12-02 19:07:36.861 INFO  (coreCloseExecutor-15-thread-1) [   x:nutch] o.a.s.c.SolrCore [nutch]  CLOSING SolrCore org.apache.solr.core.SolrCore@62aae8f7
+2019-12-02 19:07:36.861 INFO  (coreCloseExecutor-15-thread-1) [   x:nutch] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.nutch, tag=SolrCore@62aae8f7
+2019-12-02 19:07:36.862 INFO  (coreCloseExecutor-15-thread-1) [   x:nutch] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@1c56642: rootName = null, domain = solr.core.nutch, service url = null, agent id = null] for registry solr.core.nutch / com.codahale.metrics.MetricRegistry@1148cb85
+2019-12-02 19:07:36.891 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2019-12-02 19:07:36.891 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@6a62689d: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node / com.codahale.metrics.MetricRegistry@ede817d
+2019-12-02 19:07:36.893 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2019-12-02 19:07:36.893 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@f9879ac: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm / com.codahale.metrics.MetricRegistry@713be2bf
+2019-12-02 19:07:36.894 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2019-12-02 19:07:36.894 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@37f21974: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty / com.codahale.metrics.MetricRegistry@435be7fe
+2019-12-02 19:07:36.901 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@693fe6c9{/solr,null,UNAVAILABLE}{/Users/ozrendabic/Desktop/Project/solr/server/solr-webapp/webapp}

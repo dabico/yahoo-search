@@ -1,0 +1,86 @@
+2019-12-04 00:29:10.461 INFO  (main) [   ] o.e.j.u.log Logging initialized @825ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-12-04 00:29:10.539 WARN  (main) [   ] o.e.j.x.XmlConfiguration Deprecated method public void org.eclipse.jetty.rewrite.handler.RedirectRegexRule.setReplacement(java.lang.String) in file:///Users/ozrendabic/Desktop/Project/solr/server/etc/jetty.xml
+2019-12-04 00:29:10.585 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2019-12-04 00:29:10.585 WARN  (main) [   ] o.e.j.x.XmlConfiguration Deprecated method public void org.eclipse.jetty.server.ServerConnector.setSoLingerTime(int) in file:///Users/ozrendabic/Desktop/Project/solr/server/etc/jetty-http.xml
+2019-12-04 00:29:10.594 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_231-b11
+2019-12-04 00:29:10.613 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/ozrendabic/Desktop/Project/solr/server/contexts/] at interval 0
+2019-12-04 00:29:10.837 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-12-04 00:29:10.846 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-12-04 00:29:10.846 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-12-04 00:29:10.847 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2019-12-04 00:29:10.906 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-12-04 00:29:10.910 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.3.0
+2019-12-04 00:29:10.910 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-12-04 00:29:10.910 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/ozrendabic/Desktop/Project/solr
+2019-12-04 00:29:10.911 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-12-04T00:29:10.911Z
+2019-12-04 00:29:10.927 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /Users/ozrendabic/Desktop/Project/solr/server/solr
+2019-12-04 00:29:10.932 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/ozrendabic/Desktop/Project/solr/server/solr/solr.xml
+2019-12-04 00:29:11.000 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@14ec4505, but no JMX reporters were configured - adding default JMX reporter.
+2019-12-04 00:29:11.453 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2019-12-04 00:29:11.621 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@43f82e78[provider=null,keyStore=null,trustStore=null]
+2019-12-04 00:29:11.621 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@43f82e78[provider=null,keyStore=null,trustStore=null]
+2019-12-04 00:29:11.704 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@2f05be7f[provider=null,keyStore=null,trustStore=null]
+2019-12-04 00:29:11.705 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@2f05be7f[provider=null,keyStore=null,trustStore=null]
+2019-12-04 00:29:11.874 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-12-04 00:29:11.876 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2019-12-04 00:29:11.951 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@14ec4505
+2019-12-04 00:29:11.951 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@14ec4505
+2019-12-04 00:29:11.958 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@14ec4505
+2019-12-04 00:29:11.997 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /Users/ozrendabic/Desktop/Project/solr/server/solr
+2019-12-04 00:29:11.998 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [nutch]
+2019-12-04 00:29:12.041 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.c.SolrResourceLoader [nutch] Added 61 libs to classloader, from paths: [/Users/ozrendabic/Desktop/Project/solr/contrib/clustering/lib, /Users/ozrendabic/Desktop/Project/solr/contrib/extraction/lib, /Users/ozrendabic/Desktop/Project/solr/contrib/langid/lib, /Users/ozrendabic/Desktop/Project/solr/contrib/velocity/lib, /Users/ozrendabic/Desktop/Project/solr/dist, /Users/ozrendabic/Desktop/Project/solr/example/files/browse-resources]
+2019-12-04 00:29:12.051 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@693fe6c9{/solr,file:///Users/ozrendabic/Desktop/Project/solr/server/solr-webapp/webapp/,AVAILABLE}{/Users/ozrendabic/Desktop/Project/solr/server/solr-webapp/webapp}
+2019-12-04 00:29:12.067 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@4b2bac3f{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2019-12-04 00:29:12.067 INFO  (main) [   ] o.e.j.s.Server Started @2433ms
+2019-12-04 00:29:12.198 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.2.0
+2019-12-04 00:29:12.324 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.s.IndexSchema [nutch] Schema name=example-data-driven-schema
+2019-12-04 00:29:12.361 WARN  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.LatLonType]. Please consult documentation how to replace it accordingly.
+2019-12-04 00:29:12.667 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2019-12-04 00:29:12.712 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.c.CoreContainer Creating SolrCore 'nutch' using configuration from instancedir /Users/ozrendabic/Desktop/Project/solr/server/solr/nutch, trusted=true
+2019-12-04 00:29:12.732 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.nutch' (registry 'solr.core.nutch') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@14ec4505
+2019-12-04 00:29:12.744 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.c.SolrCore [[nutch] ] Opening new SolrCore at [/Users/ozrendabic/Desktop/Project/solr/server/solr/nutch], dataDir=[/Users/ozrendabic/Desktop/Project/solr/server/solr/nutch/data/]
+2019-12-04 00:29:12.778 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-12-04 00:29:13.429 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-12-04 00:29:13.429 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-12-04 00:29:13.447 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-12-04 00:29:13.447 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-12-04 00:29:13.555 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.s.SolrIndexSearcher Opening [Searcher@306126e9[nutch] main]
+2019-12-04 00:29:13.565 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/ozrendabic/Desktop/Project/solr/server/solr/nutch/conf
+2019-12-04 00:29:13.582 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-12-04 00:29:13.588 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-12-04 00:29:13.596 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /Users/ozrendabic/Desktop/Project/solr/server/solr/nutch/conf/elevate.xml
+2019-12-04 00:29:13.944 INFO  (coreLoadExecutor-9-thread-1) [   x:nutch] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-12-04 00:29:13.952 INFO  (searcherExecutor-10-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@306126e9[nutch] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(8.3.0):C1900:[diagnostics={java.vendor=Oracle Corporation, os=Mac OS X, java.version=1.8.0_231, java.vm.version=25.231-b11, lucene.version=8.3.0, os.arch=x86_64, java.runtime.version=1.8.0_231-b11, source=flush, os.version=10.14.6, timestamp=1575235212047}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-12-04 00:29:13.953 INFO  (searcherExecutor-10-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-12-04 00:29:13.953 INFO  (searcherExecutor-10-thread-1-processing-x:nutch) [   x:nutch] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-12-04 00:29:13.953 INFO  (searcherExecutor-10-thread-1-processing-x:nutch) [   x:nutch] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2019-12-04 00:29:13.958 INFO  (searcherExecutor-10-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.SolrCore [nutch] Registered new searcher Searcher@306126e9[nutch] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(8.3.0):C1900:[diagnostics={java.vendor=Oracle Corporation, os=Mac OS X, java.version=1.8.0_231, java.vm.version=25.231-b11, lucene.version=8.3.0, os.arch=x86_64, java.runtime.version=1.8.0_231-b11, source=flush, os.version=10.14.6, timestamp=1575235212047}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-12-04 00:29:38.080 INFO  (qtp1850180796-22) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:("asked+in+Consumer+Electronics"+OR+"asked+in+Computers+\%26+Internet")&fl=id,title,content&start=0} hits=998 status=0 QTime=135
+2019-12-04 00:31:23.033 INFO  (qtp1850180796-16) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:("asked+in+Consumer+Electronics"+OR+"asked+in+Computers+\%26+Internet")&fl=id,title,content&start=0} hits=998 status=0 QTime=8
+2019-12-04 00:31:32.718 INFO  (qtp1850180796-17) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:("asked+in+Consumer+Electronics"+OR+"asked+in+Computers+\%26+Internet")&fl=id,title,content&start=0} hits=998 status=0 QTime=6
+2019-12-04 00:44:52.828 INFO  (qtp1850180796-23) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:("asked+in+Consumer+Electronics"+OR+"asked+in+Computers+\%26+Internet")&fl=id,title,content&start=0} hits=998 status=0 QTime=4
+2019-12-04 00:44:55.587 INFO  (qtp1850180796-15) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/select params={q=%2Bcontent:*samsung*+AND+%2Bhost:answers.yahoo.com+AND+-content:"There+are+no+answers+yet.+Be+the+first+to+answer+this+question.+Answer+this+question"+AND+%2Bcontent:("asked+in+Consumer+Electronics"+OR+"asked+in+Computers+\%26+Internet")&fl=id,title,content&start=0} hits=998 status=0 QTime=7
+2019-12-04 00:48:17.240 INFO  (qtp1850180796-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1575420497064} status=0 QTime=1
+2019-12-04 00:48:17.266 INFO  (qtp1850180796-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575420497064} status=0 QTime=25
+2019-12-04 00:48:17.284 INFO  (qtp1850180796-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575420497064} status=0 QTime=14
+2019-12-04 00:48:21.690 INFO  (qtp1850180796-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1575420497064} status=0 QTime=0
+2019-12-04 00:48:21.693 INFO  (qtp1850180796-18) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1575420501682} status=0 QTime=2
+2019-12-04 00:48:21.698 INFO  (qtp1850180796-24) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/replication params={wt=json&command=details&_=1575420501682} status=0 QTime=4
+2019-12-04 00:48:21.699 INFO  (qtp1850180796-20) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1575420497064&ts=1575420497064} status=503 QTime=1
+2019-12-04 00:48:21.719 INFO  (qtp1850180796-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575420497064} status=0 QTime=28
+2019-12-04 00:48:21.720 INFO  (qtp1850180796-21) [   x:nutch] o.a.s.c.S.Request [nutch]  webapp=/solr path=/admin/system params={wt=json&_=1575420501682} status=0 QTime=23
+2019-12-04 00:48:23.326 INFO  (qtp1850180796-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1575420497064} status=0 QTime=0
+2019-12-04 00:48:23.340 INFO  (qtp1850180796-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1575420497064} status=0 QTime=15
+2019-12-04 12:43:28.300 INFO  (ShutdownMonitor) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@4b2bac3f{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2019-12-04 12:43:28.300 INFO  (ShutdownMonitor) [   ] o.e.j.s.session node0 Stopped scavenging
+2019-12-04 12:43:28.311 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=91323447
+2019-12-04 12:43:28.313 INFO  (coreCloseExecutor-15-thread-1) [   x:nutch] o.a.s.c.SolrCore [nutch]  CLOSING SolrCore org.apache.solr.core.SolrCore@75fd8660
+2019-12-04 12:43:28.313 INFO  (coreCloseExecutor-15-thread-1) [   x:nutch] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.nutch, tag=SolrCore@75fd8660
+2019-12-04 12:43:28.315 INFO  (coreCloseExecutor-15-thread-1) [   x:nutch] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@53e48386: rootName = null, domain = solr.core.nutch, service url = null, agent id = null] for registry solr.core.nutch / com.codahale.metrics.MetricRegistry@6ab443b9
+2019-12-04 12:43:28.367 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2019-12-04 12:43:28.368 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@6a62689d: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node / com.codahale.metrics.MetricRegistry@6c93723
+2019-12-04 12:43:28.371 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2019-12-04 12:43:28.371 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@f9879ac: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm / com.codahale.metrics.MetricRegistry@37077fbf
+2019-12-04 12:43:28.373 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2019-12-04 12:43:28.373 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@37f21974: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty / com.codahale.metrics.MetricRegistry@15d4df97
+2019-12-04 12:43:28.394 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@693fe6c9{/solr,null,UNAVAILABLE}{/Users/ozrendabic/Desktop/Project/solr/server/solr-webapp/webapp}

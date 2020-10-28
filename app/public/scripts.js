@@ -11,7 +11,7 @@ const base_start = "&start="
 /**
  * Generates the URL for accessing the documents from SOLR
  * 
- * @param   {Array} query - Array of string keywords subitted by user for search 
+ * @param   {Array} query - Array of string keywords submitted by user for search
  * @param  {number} start - Start index for the search
  * @return {string} Fully formatted URL for the GET request that will be submitted to SOLR
  */

@@ -67,7 +67,7 @@ function reset(){
  */
 async function initialFetch(){
 	let query = document.getElementById('query');
-	let tokens = query.value.replace(/[.&%#(),/!"*?~\[\]+\-^=|:{}$]+/g," ").split(" ").filter(str => str != "");
+	let tokens = query.value.replace(/[.&%#(),/!"*?~\[\]+\-^=|:{}$]+/g," ").split(" ").filter(str => str !== "");
 
 	let result = await fetch(buildURL(tokens,0)).then(res => res.json());
 	let docs = result.response.docs;
@@ -93,7 +93,7 @@ async function nextFetch(start){
 	removeElementById("search-"+start);
 
 	let query = document.getElementById('query');
-	let tokens = query.value.replace(/[.&%#(),/!"*?~\[\]+\-^=|:{}$]+/g," ").split(" ").filter(str => str != "");
+	let tokens = query.value.replace(/[.&%#(),/!"*?~\[\]+\-^=|:{}$]+/g," ").split(" ").filter(str => str !== "");
 
 	let result = await fetch(buildURL(tokens,start)).then(res => res.json());
 	let docs = result.response.docs;

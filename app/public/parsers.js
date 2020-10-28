@@ -29,7 +29,7 @@ function parseDoc(title,doc){
 	let answers = separated[1];
 	let removed_count = answers.split('\n').splice(3,answers.length).join('\n');
 	let removed_levels = removed_count.replace(/Lv\s\d+\n/g,'');
-	let ans_arr = removed_levels.split(/\d+\s\d+\s\d+\n/).filter(str => str != "");
+	let ans_arr = removed_levels.split(/\d+\s\d+\s\d+\n/).filter(str => str !== "");
 	let ans_no_usr = [];
 	ans_arr.forEach(ans => {
 		let removed_answerer = ans.replace(/.*\n/,'');

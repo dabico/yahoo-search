@@ -70,7 +70,7 @@ function createHyperlink(text,url){
  * @return  {string} Ordered/Unordered list element in string form
  */
 function createList(array,ordered = true){
-	array = array.filter(str => str != "")
+	array = array.filter(str => str !== "")
 	let return_value = ordered ? "<ol>" : "<ul>";
 	array.forEach(ans => return_value += "<li>"+ans+"</li>");
 	return_value += ordered ? "</ol>" : "</ul>";
@@ -124,7 +124,7 @@ function appendToTable(title, answers, id, query){
 	let container = document.createElement('div');
 	container.setAttribute("id",id);
 
-	if (query != ''){
+	if (query !== ''){
 		let button1 = document.createElement('button');
 		button1.innerHTML = "&#10004;";
 		let button2 = document.createElement('button');

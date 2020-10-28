@@ -9,7 +9,7 @@
  * @param {string} id - ID string of the element we want to remove
  */
 function removeElementById(id){
-	var elem = document.getElementById(id);
+	let elem = document.getElementById(id);
 	elem.parentNode.removeChild(elem);
 }
 
@@ -20,7 +20,7 @@ function removeElementById(id){
  * @param {string} id - Unique ID string of the feedback button
  */
 function removeFeedbackButtons(id){
-	var div = document.getElementById(id);
+	let div = document.getElementById(id);
 	div.innerHTML = "Feedback<br />Submitted!";
 }
 

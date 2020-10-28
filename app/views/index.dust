@@ -16,7 +16,7 @@
     <body onload="reset();" id="body">
         <h1>Yahoo Answers Search</h1>
         Query:
-        <input type="text" size="70" placeholder="Enter space-seperated keywords to search" name="query" id="query">
+        <input type="text" size="70" placeholder="Enter space-separated keywords to search" name="query" id="query">
         <input type="radio" id="content" name="search-filed" value="content" checked> Search In Content
         <input type="radio" id="title" name="search-filed" value="title"> Search In Title
         <button onclick="main();" id="search-initial">Search!</button>
